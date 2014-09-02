@@ -1,0 +1,2 @@
+<h4>Description</h4>
+<blockquote>{{product.description}}</blockquote>
