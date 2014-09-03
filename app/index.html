@@ -7,30 +7,34 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="main.css">
 
   </head>
      <body ng-controller="StoreController as store">
     <!--  Store Header  -->
     <header>
-      <h1 class="text-center">Flatlander Crafted Gems</h1>
-      <h2 class="text-center">– an Angular store –</h2>
+      <h1 class="text-center">Some Kellee Stuff</h1>
+      <h2 class="text-center">– all the kellees –</h2>
     </header>
 
-    <!--  Products Container  -->
-    <div class="list-group">
-      <!--  Product Container  -->
-      <div class="list-group-item" ng-repeat="product in store.products">
-        <h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em></h3>
+    <div class="entries">
+ 
+        <div class="list-group-item" ng-repeat="product in store.products">
+          <h3>{{product.name}} <em class="pull-right">{{product.price | currency}}</em></h3>
 
-        <!-- Image Gallery  -->
-        <product-gallery></product-gallery>
+          <!-- Image Gallery  -->
+          <product-gallery></product-gallery>
 
-        <!-- Product Tabs  -->
-        <product-tabs></product-tabs>
+          <!-- Product Tabs  -->
+          <product-tabs></product-tabs>
+        </div>
+
       </div>
+    </div>  
 
-    </div>
+
+
+
   </body>
 
 
@@ -59,6 +63,10 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/json3/lib/json3.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

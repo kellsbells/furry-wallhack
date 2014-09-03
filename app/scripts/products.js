@@ -45,6 +45,8 @@
       return {
         restrict: "E",
         templateUrl: "product-gallery.html",
+
+
         controller: function() {
           this.current = 0;
           this.setCurrent = function(imageNumber){
