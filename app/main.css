@@ -1,7 +1,15 @@
+.entries {
+  overflow: auto;
+}
+
 .list-group-item {
   display: inline-block;
-  
   margin: 1em;
+  text-align: center;
+}
+
+.after .list-group-item {
+  clear: left;
 }
 
 .ng-invalid.ng-dirty {
@@ -10,6 +18,10 @@
 
 .ng-valid.ng-dirty {
   border-color: #78FA89;
+}
+
+.frontpageimage {
+  margin: 5%;
 }
 
 

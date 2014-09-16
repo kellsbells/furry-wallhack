@@ -40,5 +40,75 @@
       "images/thumbnail.png"
     ],
     "reviews": []
+  },
+  {
+    "name": "Corolla",
+    "description": "Cute and reliable",
+    "price": 18000,
+    "cylinders": 4,
+    "color": "Blue",
+    "doors": 4,
+    "images": [
+      "images/full.png",
+      "images/thumb.png",
+      "images/thumbnail.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Corolla",
+    "description": "Cute and reliable",
+    "price": 18000,
+    "cylinders": 4,
+    "color": "Blue",
+    "doors": 4,
+    "images": [
+      "images/full.png",
+      "images/thumb.png",
+      "images/thumbnail.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Corolla",
+    "description": "Cute and reliable",
+    "price": 18000,
+    "cylinders": 4,
+    "color": "Blue",
+    "doors": 4,
+    "images": [
+      "images/full.png",
+      "images/thumb.png",
+      "images/thumbnail.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Corolla",
+    "description": "Cute and reliable",
+    "price": 18000,
+    "cylinders": 4,
+    "color": "Blue",
+    "doors": 4,
+    "images": [
+      "images/full.png",
+      "images/thumb.png",
+      "images/thumbnail.png"
+    ],
+    "reviews": []
+  },
+  {
+    "name": "Corolla",
+    "description": "Cute and reliable",
+    "price": 18000,
+    "cylinders": 4,
+    "color": "Blue",
+    "doors": 4,
+    "images": [
+      "images/full.png",
+      "images/thumb.png",
+      "images/thumbnail.png"
+    ],
+    "reviews": []
   }
 ]
